@@ -483,16 +483,29 @@ progress::-webkit-progress-value{
     padding-top: 1.5rem;
 }
 
+.services .container{
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    justify-content: space-between;
+    align-content: center;
+    row-gap: 2rem;
+}
+
+.services-title{
+    grid-column: span 2;
+}
+
 @media screen and (min-width:768px) {
     .services .container{
         display: grid;
-        grid-template-columns: repeat(2, 45%);
+        grid-template-columns: repeat(3, 30%);
         justify-content: space-between;
         align-content: center;
+        row-gap: 2rem;
     }
 
     .services-title{
-        grid-column: span 2;
+        grid-column: span 3;
     }
 
     .portafolio .container{
@@ -557,14 +570,13 @@ progress::-webkit-progress-value{
 
     .contact-cards{
         display: grid;
-        grid-template-columns: repeat(4, 24%);
+        grid-template-columns: repeat(3, 33%);
         justify-content: space-around;
     }
 
     .contact-form{
         display: grid;
         grid-template-columns: repeat(2,48%);
-    
         justify-content: space-around;
     }
 
