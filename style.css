@@ -564,13 +564,13 @@ progress::-webkit-progress-value{
 
     .portafolio .container{
         display: grid;
-        grid-template-columns: repeat(3, 30%);
+        grid-template-columns: repeat(3, 30%) !important;
         justify-content: center;
     }
 
     .contact-cards{
         display: grid;
-        grid-template-columns: repeat(3, 33%);
+        grid-template-columns: repeat(3, 28%);
         justify-content: space-around;
     }
 
